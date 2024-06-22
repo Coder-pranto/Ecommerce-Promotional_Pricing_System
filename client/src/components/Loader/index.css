@@ -1,0 +1,13 @@
+.fade-in-out {
+    animation: fadeinout 0.5s ease infinite alternate-reverse;
+  }
+  @keyframes fadeinout {
+    0% {
+      opacity: 0.5;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }

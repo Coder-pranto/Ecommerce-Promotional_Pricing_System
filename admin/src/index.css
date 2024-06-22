@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .action-btns {
+    @apply px-3 py-2 hover:bg-secondary rounded-md text-black transition-colors;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6db7c7;
+  border-radius: 20px;
+}
